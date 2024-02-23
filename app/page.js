@@ -1,12 +1,15 @@
-import Image from "next/image";
-import NavbarItems from "./components/NavbarItems";
+import Hero from "./Pages/Hero";
+import BorderSocial from "./components/BorderSocial";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main className="bg-[#0a192f] h-svh">
-      <NavbarItems number={'01'} text={'About'} />
+    <main>
+      <Navbar />
+      <BorderSocial social={'carlosternera46@gmail.com'} />
 
-
+      <Hero />
+      <Hero />
 
     </main>
   );

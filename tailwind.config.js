@@ -18,14 +18,24 @@ module.exports = {
       'Green': '#64ffda',
       'Navy': '#0a192f',
       'Lightnavy': '#112240',
-      'Lightest Navy': '#233554',
+      'LightestNavy': '#233554',
       'Slate': '#8892b0',
-      'Light Slate': '#a8b2d1',
-      'Lightest Slate': '#ccd6f6',
+      'LightSlate': '#a8b2d1',
+      'LightestSlate': '#ccd6f6',
       'White': '#e6f1ff',
     },
     fontFamily: {
       'firacode': Fira_Code
+    },
+    boxShadow: {
+      'HoverBtns': '3px 3px 0 0',
+    },
+
+    keyframes: {
+      underline: {
+        '0%, 100%': { transform: '' },
+        '50%': { transform: 'rotate(3deg)' },
+      }
     }
   },
   plugins: [],
