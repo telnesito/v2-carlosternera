@@ -4,7 +4,7 @@ const CardExperience = ({ experience }) => {
 
   console.log(experience)
   return (
-    <div >
+    <div>
       <div className='font-semibold text-[18px]'>
         <h3 className='text-LightestSlate '>{experience.position} en
           <span className='text-Green ml-1 '>{experience.company}</span>
@@ -14,7 +14,7 @@ const CardExperience = ({ experience }) => {
       <ul className='w-full list-none p-0 m-0 '>
         {
           experience.responsability.map((item, index) => <li
-            className='text-Slate text-[14px] flex  ml-[30px] pb-[10px] 
+            className='text-Slate text-[14px] flex ml-[30px] pb-[10px] 
               before:content-["▹"] before:text-Green before:mr-5 
               '
             key={index}>

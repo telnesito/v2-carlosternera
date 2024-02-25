@@ -30,6 +30,10 @@ module.exports = {
     boxShadow: {
       'HoverBtns': '3px 3px 0 0',
     },
+    dropShadow: {
+      'HoverLogo': '3px 3px 0  #64ffda',
+
+    },
 
     keyframes: {
       underline: {

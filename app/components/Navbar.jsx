@@ -9,6 +9,10 @@ const Navbar = () => {
       <nav className='flex justify-between w-full p-5'>
         <div className='flex gap-5 items-center'>
           <Logo />
+
+
+
+
         </div>
         <div className='flex gap-8 items-center'>
           {

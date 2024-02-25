@@ -46,16 +46,16 @@ export const EXPERIENCES = [
   },
   {
     company: 'La Casona',
-    time: 'Septiembre 2023 - Actual',
-    responsability: ["Maquetación de interfaz gráfica atractiva y funcional.", " Integración de API y servicios de terceros, como Google Analytics y MailChimp", "Construcción de consultas SQL eficientes.", " Desarrollo de bases de datos sólidas y confiables."],
-    position: 'Programador Jr'
+    time: 'Octubre 2022 - Enero 2023',
+    responsability: ["Diseño y maquetación de página web estilo hotelera donde se muestre los servicios, habitaciones y las diferentes zonas del hotel.", "Integración de API como TRIPHOTEL y Google Maps", "Construccion de modelo responsive y funcional en todos los diferentes tamaño de pantalla"],
+    position: 'Desarrollador Web'
   },
 
   {
     company: 'Metropolitano',
-    time: 'Septiembre 2023 - Actual',
+    time: 'Enero 2023 - Septiembre 2023',
     responsability: ["Maquetación de interfaz gráfica atractiva y funcional.", " Integración de API y servicios de terceros, como Google Analytics y MailChimp", "Construcción de consultas SQL eficientes.", " Desarrollo de bases de datos sólidas y confiables."],
-    position: 'Programador Jr'
+    position: 'Desarrollador FullStack'
   },
 
 ]

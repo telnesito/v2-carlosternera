@@ -5,9 +5,9 @@ const ButtonTabs = ({ text, onClick, isActive }) => {
     onClick();
   };
 
-  const ACTIVETAB = 'border-l-2 border-x-Green hover:bg-Lightnavy transition-all duration-500  text-left pl-6 text-Slate text-Green text-[14px] p-2 w-[200px] pt-3 pb-3 bg-Lightnavy'
+  const ACTIVETAB = 'border-l-2 border-x-Green hover:bg-Lightnavy transition-all duration-500  text-left pl-6  text-Green text-[14px] p-2 w-[200px] pt-3 pb-3 bg-Lightnavy'
 
-  const INACTIVETAB = 'border-l-2 border-x-LightestNavy hover:bg-Lightnavy transition-all duration-500  text-left pl-6 text-Slate text-Green text-[14px] p-2 w-[200px] pt-3 pb-3 hover:bg-Lightnavy'
+  const INACTIVETAB = 'border-l-2 border-x-LightestNavy hover:bg-Lightnavy transition-all duration-500  text-left pl-6 text-Slate hover:text-Green text-[14px] p-2 w-[200px] pt-3 pb-3 hover:bg-Lightnavy'
 
 
 
