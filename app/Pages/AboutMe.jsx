@@ -13,11 +13,12 @@ const AboutMe = () => {
         <div className='flex gap-[50px]'>
           <div className='text-LightSlate  flex flex-col gap-10'>
             <p>
-              Hola! Mi nombre es Carlos Ternera y soy ingeniero en sistemas. Actualmente estoy trabajando en CianCoders como programador frontend de forma remota. <br /> <br />
+              Hola! Mi nombre es Carlos Ternera y soy ingeniero en sistemas. Actualmente estoy trabajando en <span className='text-Green'>
+                CianCoders</span>  como programador frontend de forma remota. <br /> <br />
 
-              Mi interés en el desarrollo web comenzó hace unos años, cuando decidí adentrarme en la creación de aplicaciones web. Desde entonces, he tenido la oportunidad de trabajar en diversos proyectos y aprender nuevas tecnologías. Gracias a esto he participado en varias competencias de desarrollo de software y de proyectos en donde he logrado obtener multiples reconocimientos.
+              Mi interés en el desarrollo web comenzó hace unos años, cuando decidí adentrarme en la creación de aplicaciones web. Desde entonces, <span className='text-Green'>he tenido la oportunidad de trabajar en diversos proyectos y aprender nuevas tecnologías</span>. Gracias a esto he participado en varias competencias de desarrollo de software y de proyectos en donde he logrado obtener <span className='text-Green'>multiples reconocimientos</span>.
               <br /> <br />
-              El ultimo proyecto personal en el que he trabajado ha sido en una plataforma educativa estilo Platzi utilizando Next.js y Python
+              El ultimo proyecto personal en el que he trabajado ha sido en una plataforma educativa estilo Platzi utilizando <span className='text-Green'>Next.js y Python</span>.
               <br /><br />
               Aqui algunas tecnologias en las que he programado ultimamente:</p>
             <ul className='flex gap-2 list-none w-[700px] flex-wrap'>
