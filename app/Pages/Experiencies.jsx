@@ -14,7 +14,7 @@ const Experiencies = () => {
   };
 
   return (
-    <section className='w-full flex flex-col items-center justify-center'>
+    <section className='w-full flex flex-col items-center justify-center pb-[100px]'>
       <div className='w-[700px]'>
         <TitleSection number={'01'} title={'Donde he trabajado'}></TitleSection>
 

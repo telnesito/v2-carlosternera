@@ -57,5 +57,8 @@ export const EXPERIENCES = [
     responsability: ["Maquetación de interfaz gráfica atractiva y funcional.", " Integración de API y servicios de terceros, como Google Analytics y MailChimp", "Construcción de consultas SQL eficientes.", " Desarrollo de bases de datos sólidas y confiables."],
     position: 'Desarrollador FullStack'
   },
-
 ]
+
+//Habilidades
+
+export const HABILITIES = ['HTML & CSS', 'JavaScript & TypeScript', 'React.js', 'Next.js', 'Node.js', 'Express.js', 'Python', 'Django REST Framework', 'Nest.js', 'Firebase', 'MongoDB', 'PosgreSQL']
