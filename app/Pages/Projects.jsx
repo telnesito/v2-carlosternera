@@ -8,6 +8,7 @@ const Projects = () => {
       <div className='w-[1100px]'>
         <TitleSection number={'02'} title={'Proyectos donde he trabajado!'}></TitleSection>
 
+
       </div>
 
 
