@@ -18,7 +18,7 @@ module.exports = {
       'halcyon': 'contrast(1.2) brightness(0.9) hue-rotate(-10deg) saturate(1.1)',
     },
     colors: {
-      'Green': '#64ffda',
+      'Green': '#6A92FF',
       'Navy': '#0a192f',
       'Lightnavy': '#112240',
       'LightestNavy': '#233554',
