@@ -70,32 +70,32 @@ export const PROJECTS = [
   {
     title: 'Finapp: Agenda y asistente financiero',
     description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
-    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
-    image: 'finappchat.svg',
-    alt: 'Imagen de finapp en la seccion chatbot'
+    technologies: ["JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API", "Tailwind CSS"],
+    image: 'finapp.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 300,
+    w: 300,
+    url: 'https://finapp-alpha.vercel.app'
   },
   {
-    title: 'Finapp: Agenda y asistente financiero',
-    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
-    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
-    image: 'finappchat.svg',
-    alt: 'Imagen de finapp en la seccion chatbot'
+    title: 'Codesue: Editor de codigo en la web',
+    description: 'Editor de código en línea con interfaz intuitiva, que permite a los usuarios crear, editar y gestionar proyectos de código, así como modificar sus perfiles. Incluye una sección administrativa para supervisar y controlar la plataforma.',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Firebase", "MUI", "Nodejs"],
+    image: 'codesue.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 600,
+    w: 600,
+    url: 'https://editor-codigo.vercel.app/'
   },
 
   {
-    title: 'Finapp: Agenda y asistente financiero',
-    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
-    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
-    image: 'finappchat.svg',
-    alt: 'Imagen de finapp en la seccion chatbot'
+    title: 'La Casona: Landing page',
+    description: 'Landing page para el hotel "La Casona" con funciones de reserva rápida por WhatsApp, galería de habitaciones, presentación interactiva de servicios, exploración de la zona y testimonios de huéspedes. Diseño responsivo y enfocado en la usabilidad.',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs"],
+    image: 'lacasona.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 700,
+    w: 700,
+    url: 'https://primera-version-la-casona.netlify.app/'
   },
-
-  {
-    title: 'Finapp: Agenda y asistente financiero',
-    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
-    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
-    image: 'finappchat.svg',
-    alt: 'Imagen de finapp en la seccion chatbot'
-  },
-
 ]
