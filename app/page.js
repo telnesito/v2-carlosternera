@@ -1,5 +1,6 @@
 import AboutMe from "./Pages/AboutMe";
 import Experiencies from "./Pages/Experiencies";
+import GetInTouch from "./Pages/GetInTouch";
 import Hero from "./Pages/Hero";
 import OtherProjects from "./Pages/OtherProjects";
 import Projects from "./Pages/Projects";
@@ -18,7 +19,7 @@ export default function Home() {
 
       <Projects />
       <OtherProjects />
-
+      <GetInTouch />
     </main>
   );
 }

@@ -9,7 +9,7 @@ import { PROJECTS } from '../const/constantes'
 
 const Projects = () => {
   return (
-    <section className='flex items-center justify-center pt-[100px]'>
+    <section className='flex items-center justify-center pt-[200px]'>
 
       <div className='w-[1100px]'>
         <TitleSection number={'03'} title={'Proyectos que he desarrollado'}></TitleSection>

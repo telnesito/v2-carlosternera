@@ -4,7 +4,7 @@ import { ALLPROJECTS } from '../const/constantes'
 
 const OtherProjects = () => {
   return (
-    <section className='flex flex-col items-center justify-center pt-[100px]'>
+    <section className='flex flex-col items-center justify-center pt-[200px]'>
       <p className={`text-LightSlate justify-center text-[25px] flex mb-[40px]  gap-5 items-center font-bold `}>
         Otros proyectos
       </p>
