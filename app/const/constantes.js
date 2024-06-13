@@ -62,3 +62,40 @@ export const EXPERIENCES = [
 //Habilidades
 
 export const HABILITIES = ['HTML & CSS', 'JavaScript & TypeScript', 'React.js', 'Next.js', 'Node.js', 'Express.js', 'Python', 'Django REST Framework', 'Nest.js', 'Firebase', 'MongoDB', 'PosgreSQL']
+
+
+// Proyectos
+
+export const PROJECTS = [
+  {
+    title: 'Finapp: Agenda y asistente financiero',
+    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
+    image: 'finappchat.svg',
+    alt: 'Imagen de finapp en la seccion chatbot'
+  },
+  {
+    title: 'Finapp: Agenda y asistente financiero',
+    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
+    image: 'finappchat.svg',
+    alt: 'Imagen de finapp en la seccion chatbot'
+  },
+
+  {
+    title: 'Finapp: Agenda y asistente financiero',
+    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
+    image: 'finappchat.svg',
+    alt: 'Imagen de finapp en la seccion chatbot'
+  },
+
+  {
+    title: 'Finapp: Agenda y asistente financiero',
+    description: 'Aplicación web con inteligencia artificial para gestionar tus finanzas personales. Interfaz optimizada para dispositivos móviles y chatbot que ofrece recomendaciones personalizadas',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "Nextjs", "Firebase", "Gemini API"],
+    image: 'finappchat.svg',
+    alt: 'Imagen de finapp en la seccion chatbot'
+  },
+
+]

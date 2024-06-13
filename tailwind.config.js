@@ -14,6 +14,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    filter: {
+      'halcyon': 'contrast(1.2) brightness(0.9) hue-rotate(-10deg) saturate(1.1)',
+    },
     colors: {
       'Green': '#64ffda',
       'Navy': '#0a192f',
