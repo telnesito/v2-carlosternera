@@ -14,7 +14,7 @@ const Navbar = () => {
           {
             NAVBARITEMS.map(({ number, text }, index) => <NavbarItems key={index} number={number} text={text} />)
           }
-          <OutlinedButton texto={'Resume'} />
+          <OutlinedButton texto={'Curriculum'} />
         </div>
       </nav>
     </header>

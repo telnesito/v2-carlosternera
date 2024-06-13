@@ -99,3 +99,71 @@ export const PROJECTS = [
     url: 'https://primera-version-la-casona.netlify.app/'
   },
 ]
+
+// Otros proyectos
+
+export const ALLPROJECTS = [
+  {
+    title: 'Buggzy: Plataforma educativa (FrontEnd)',
+    description: 'Plataforma educativa en línea para aprender de expertos en diversos temas, a tu propio ritmo.',
+    technologies: ["JavaScript", "Reactjs", "MUI", "Tailwind CSS"],
+    image: 'finapp.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 300,
+    w: 300,
+    url: 'https://github.com/kurco07/proyecto-de-Carlos'
+  },
+  {
+    title: 'Buggzy: Plataforma educativa (Backend)',
+    description: 'API para plataforma educativa en línea para aprender de expertos en diversos temas, a tu propio ritmo.',
+    technologies: ["Python", "DJANGO", "DJANGORESTFRAMEWORK", "POSTGRESQL"],
+    image: 'finapp.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 300,
+    w: 300,
+    url: 'https://github.com/telnesito/bugzzy-backend'
+  },
+  {
+    title: 'Landing Page - Sunny Side',
+    description: 'Landing page responsiva creada con React y Material UI, diseñada para brindar una experiencia de usuario excepcional.Incluye secciones de proyectos, servicios y testimonios.',
+    technologies: ["HTML", "CSS", "JavaScript", "Reactjs", "MUI"],
+    image: 'codesue.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 600,
+    w: 600,
+    url: 'https://sunnyside-landing-page-zeta.vercel.app/'
+  },
+
+  {
+    title: 'Prueba tecnica de backend para listoapp',
+    description: 'Desarrollar una API local básica utilizando las siguientes tecnologías: NestJS (Usa NodeJS) , MongoDB, TypeScript y GraphQL.',
+    technologies: ["NestJS", "Mongo Atlas", "TypeScript", "GraphQL"],
+    image: 'lacasona.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 700,
+    w: 700,
+    url: 'https://github.com/telnesito/listoapp-prueba-tecnica'
+  },
+
+  {
+    title: 'Pagina Web - Colegio Metropolitano',
+    description: 'Desarrollo de un sitio web para un centro estudiantil, colaborando en el diseño UI en Figma y su implementación pixel-perfect con React y Material UI.',
+    technologies: ["Reactjs", "Firebase", "Figma", "MUI"],
+    image: 'lacasona.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 700,
+    w: 700,
+    url: 'https://servicio-comunitario.vercel.app/'
+  },
+
+  {
+    title: 'Nutri-net: Aplicacion para ofrecer recetas',
+    description: 'Desarrollo de Aplicación Web Enfocada a Brindar una Alternativa de Alimentación Nutritiva',
+    technologies: ["Reactjs", "CSS", "MUI", "HTML", "API EDAMAM"],
+    image: 'lacasona.svg',
+    alt: 'Imagen de finapp en la seccion chatbot',
+    h: 700,
+    w: 700,
+    url: 'https://nutri-net.vercel.app/'
+  }
+]
