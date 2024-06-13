@@ -1,5 +1,6 @@
 import AboutMe from "./Pages/AboutMe";
 import Experiencies from "./Pages/Experiencies";
+import Footer from "./Pages/Footer";
 import GetInTouch from "./Pages/GetInTouch";
 import Hero from "./Pages/Hero";
 import OtherProjects from "./Pages/OtherProjects";
@@ -20,6 +21,7 @@ export default function Home() {
       <Projects />
       <OtherProjects />
       <GetInTouch />
+      <Footer />
     </main>
   );
 }
