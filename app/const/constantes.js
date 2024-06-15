@@ -9,13 +9,13 @@ export const NAVBARITEMS = [
 
   {
     number: '02',
+    text: 'Conoceme'
+  },
+  {
+    number: '03',
     text: 'Proyectos'
   },
 
-  {
-    number: '03',
-    text: 'Conoceme'
-  },
 
   {
     number: '04',
