@@ -1,12 +1,11 @@
 import React from 'react'
 import TitleSection from '../components/TitleSection'
 import { HABILITIES } from '../const/constantes'
-import Image from 'next/image'
 
 
 const AboutMe = () => {
   return (
-    <section className='flex items-center justify-center pt-[100px]'>
+    <section id="conoceme" className='flex items-center justify-center pb-[100px] pt-[100px]'>
       <div className='w-[900px]'>
         <TitleSection number={'02'} title={'Sobre mi'}></TitleSection>
 

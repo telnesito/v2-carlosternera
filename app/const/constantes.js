@@ -4,21 +4,25 @@ import { Fira_Code, Roboto } from 'next/font/google'
 export const NAVBARITEMS = [
   {
     number: '01',
+    text: 'Inicio'
+  },
+  {
+    number: '02',
     text: 'Experiencia'
   },
 
   {
-    number: '02',
+    number: '03',
     text: 'Conoceme'
   },
   {
-    number: '03',
+    number: '04',
     text: 'Proyectos'
   },
 
 
   {
-    number: '04',
+    number: '05',
     text: 'Contacto'
   },
 

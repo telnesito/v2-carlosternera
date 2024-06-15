@@ -34,7 +34,7 @@ module.exports = {
       'HoverBtns': '3px 3px 0 0',
     },
     dropShadow: {
-      'HoverLogo': '3px 3px 0  #64ffda',
+      'HoverLogo': '3px 3px 0  #6A92FF',
 
     },
 

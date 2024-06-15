@@ -1,8 +1,12 @@
+'use client'
 import React from 'react'
 import { firacode } from '../const/constantes';
-const OutlinedButton = ({ texto, size = 'small' }) => {
+const OutlinedButton = ({ texto, size = 'small', onClick = () => console.log('Boton clickleado') }) => {
 
-  let style = ` hover:-translate-y-1 hover:-translate-x-1 transition-all duration-300 hover:shadow-HoverBtns hover:shadow-Green w-3/12 border-[1px] pl-4 pr-4 rounded text-[13px] border-Green text-Green ${firacode.className}`
+  const handleClick = () => {
+    onClick()
+  }
+  let style = ` hover:-translate-y-1 hover:-translate-x-1 transition-all duration-300 hover:shadow-HoverBtns hover:shadow-Green  border-[1px] pl-4 pr-4 rounded text-[13px] border-Green text-Green ${firacode.className}`
 
   if (size === 'medium') {
     style += ' pt-4 pb-4';
@@ -12,7 +16,7 @@ const OutlinedButton = ({ texto, size = 'small' }) => {
   }
 
   return (
-    <button className={style}>{texto}</button>
+    <button onClick={handleClick} className={style}>{texto}</button>
   )
 }
 

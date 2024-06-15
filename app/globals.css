@@ -12,3 +12,7 @@
 ::-webkit-scrollbar-thumb {
   background-color: #495670; /* Color de la manija */
 }
+
+html {
+  scroll-behavior: smooth;
+}

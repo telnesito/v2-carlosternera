@@ -3,13 +3,12 @@ import TitleSection from '../components/TitleSection'
 import ProjectTitle from '../components/projects/ProjectTitle'
 import ProjectDescription from '../components/projects/ProjectDescription'
 import ProjectTechnologies from '../components/projects/ProjectTecnologies'
-import Image from 'next/image'
 import ProjectImage from '../components/projects/ProjectImage'
 import { PROJECTS } from '../const/constantes'
 
 const Projects = () => {
   return (
-    <section className='flex items-center justify-center pt-[200px]'>
+    <section id="proyectos" className='flex items-center justify-center pt-[100px]'>
 
       <div className='w-[1100px]'>
         <TitleSection number={'03'} title={'Proyectos que he desarrollado'}></TitleSection>

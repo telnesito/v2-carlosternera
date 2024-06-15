@@ -14,7 +14,10 @@ const Navbar = () => {
           {
             NAVBARITEMS.map(({ number, text }, index) => <NavbarItems key={index} number={number} text={text} />)
           }
-          <OutlinedButton texto={'Curriculum'} />
+          <a className={'w-[100]'} href="/carlos-ternera-fullstack.pdf" download>
+            <OutlinedButton texto={'Curriculum'} />
+          </a>
+
         </div>
       </nav>
     </header>
